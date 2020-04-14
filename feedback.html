@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Feedback</title>
+	<style type="text/css">
+		body
+		{
+			background:url(bg.jpg);
+			background-color: skyblue;
+			font-family: sans-serif;
+			border:2px;
+
+		}
+		h2{
+			text-align: center;
+			color: blue;
+			font-family: "montserrat",sans-serif;
+			font-size: 32px;
+		}
+		.contact-box
+		{
+			width:700px;
+			background-color: #fff;
+			box-shadow: 0 0 20px 0 #999;
+			right: 20%;
+			top:10%;
+			left: 20%;
+			margin-left: 30px;
+			transform: translate(-50%.-50);
+			position: absolute;
+			border-radius: 5px;
+			outline: 5px solid black;
+			margin: 0em auto 10em;
+		}
+		.input-field
+		{
+			width: 400px;
+			height: 40px;
+			margin-top: 20px;
+			padding-left: 10px;
+			padding-right: 10px;
+			border: 1px solid #777;
+			border-radius: 14px;
+			outline: blue;
+		}
+		.textarea-field
+		{
+			height: 150px;
+			padding-top: 10px;
+		}
+		.btn
+		{border-radius: 20px;
+			color: #fff;
+			margin-top: 18px;
+			padding: 10px;
+			background-color: #47c35a;
+			font-size: 12px;
+			border:none;
+			cursor: pointer;}
+	</style>
+</head>
+<body>
+	<div class="contact-box">
+	<h2> FEEDBACK FORM</h2>
+	<form>
+		<table>
+		<tr>
+		<td>Feedback Type:  </td>
+		<td class="input-field">
+		 			<input type="radio" name="Feedback"  value="Suggestion"> Suggestion
+					<input type="radio" name="Feedback"  value="Complain"> Complain
+					<input type="radio" name="Feedback"  value="Inquiry"> Inquiry
+					<input type="radio" name="Feedback"  value="Compliment"> Compliment
+		</td>
+		</tr>
+		<tr>
+		<td>Subject: </td>
+		<td>
+		       <select class="input-field">
+						<option> Bus Booking</option>
+						<option> Flight Booking</option>
+						<option> Hotel Booking</option>
+						<option> Train Booking</option>
+						<option> VISA</option>
+						<option> Currrency Exchange</option>
+
+					
+				</select>
+		</td>
+		</tr>
+		<tr>
+		<td> Email:</td>
+		<td>
+			<input type="Email" name="" placeholder="ENTER EMAIL" class="input-field">
+		</td>
+		</tr>
+		<tr>
+		<td> Contact Person:</td>
+		<td>
+			<input type="text" name="" placeholder="ENTER NAME" class="input-field">
+		</td>
+		</tr>
+		<tr>
+		<td> Phone No:</td>
+		<td>
+			<input type="text" name="" placeholder="ENTER PHONE NO" class="input-field">
+		</td>
+		</tr>
+		<tr>
+		<td> Comment:</td>
+		<td>
+			<input type="textarea" name="" class="input-field textarea-field" placeholder="WRITE A MESSAGE" class="input-field" cols=10 rows=8 WRAP>
+		</td>
+		</tr>
+		<tr>
+		<td><button type="button" class="btn"> Send Message</button></td>
+		</tr>
+
+	</form>
+	</div>
+
+</body>
+</html>

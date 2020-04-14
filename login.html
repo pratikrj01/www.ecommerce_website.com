@@ -1,0 +1,100 @@
+<html>
+<head>
+	<title> LOGIN</title>
+	<style type="text/css">
+		body{
+			background-image: url('best.jpg');
+			background-size: cover;
+			background-repeat: no-repeat;
+			margin: 0;
+			padding: 0;
+			font-family:Arial;
+		}
+		.login{
+			margin: auto;
+			width: 400px;
+			box-shadow: 0px 8px 16px 0px rgba(0,0.6,0.8,0.4);
+			padding: 80px 40px;
+			margin-top: 80px;
+			background: linear-gradient(top,#3c3b3a 20%, #222111 80%);
+			background: -webkit-linear-gradient(top,#3c3c3c 0%, #222222 100%);
+		}
+		h2{
+			margin: 0 0 30px 0;
+			padding: 10px;
+			color: #efed40;
+			text-align: center;
+		}
+		input
+		{
+			width: 100%;
+			margin-bottom: 30px;
+		}
+
+		input[type=text], input[type=email], input[type=password]{
+			border:none;
+			outline:none;
+			border:2px #fff dotted;
+			background: transparent;
+			border-radius: 20px;
+			box-sizing: border-box;
+			color:#efed40;
+			font-size: 16px;
+			padding:10px;
+			text-align: center;
+		}
+		.a1{
+			font-size: 20px;
+			color:red;
+		}
+		input[type=submit]{
+
+			border:none;
+			outline: none;
+			padding: 10px;
+			color: #fff;
+			font-size: 16px;
+			font-family: Arial;
+			background: #ff267e;
+			cursor: pointer;
+			border-radius: 20px;
+		}
+		input[type=submit]:hover{
+			background: #efed40;
+			color:#262626;
+		}
+		a{}
+
+		
+	</style>
+</head>
+<body>
+	<div class="login">
+	<h2> USER LOGIN</h2>
+	<form method="post" action="MainPage.html">
+		<table>
+			<tr>
+				<td class="a1"> USER NAME :</td>
+				<td><input type="text" name="name" placeholder="ENTER USER NAME"></td>
+			</tr>
+			<tr>
+				<td class="a1"> EMAIL ID :</td>
+				<td><input type="EMAIL" name="name" placeholder="ENTER EMAIL ID"></td>
+			</tr>
+			<tr>
+				<td class="a1"> PASSWORD :</td>
+				<td><input type="PASSWORD" name="name" placeholder="ENTER PASSWORD"></td>
+			</tr>
+			<tr>
+				<td> <input type="submit" name="" value="submit"></td>
+			</tr>
+		</table>
+		<a href="#"> FORGET PASSWORD </a>
+	</form>
+</div>
+ 
+		
+	
+	
+</body>
+</html>

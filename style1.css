@@ -1,0 +1,138 @@
+body{
+			padding: 0px;
+			margin: 0px;
+			font-family: sans-serif;
+			height: 100%;
+			width: 100%;
+		}
+		.container{
+			width: 100%;
+			margin: auto;
+			overflow: hidden;
+			font-size: 25px;
+		}
+		#contact-section{
+			background:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.2)),url(bg.jpg);
+			background-size: cover;
+			background-position: center;
+			height: 100%;
+			width: 100%;
+			padding-bottom: 2%;
+
+		}
+		#contact-section .container h2{
+			text-align: center;
+			text-decoration: underline;
+			text-underline-position: under;
+			color: rgba(238,235,235);
+			letter-spacing: 2px;
+
+		}
+		#contact-section .container p{
+			text-align: center;
+			width: 80%;
+			margin-left: auto;
+			margin-right: auto;
+			padding-bottom: 3%;
+			color: black;
+			letter-spacing: 3px;
+			font-family: "montserrat",sans-serif;
+			float: right;
+		}
+		.contact-form i.fa{
+			font-size: 18px;
+			padding: 3%;
+			background-color: none;
+			margin: 2%;
+			border-radius: 60%;
+			cursor: pointer;
+			border:2px solid rgb(190,190,190);
+			color: rgb(190,190,190);
+		}
+		.contact-form i.fa:hover{
+			cursor: pointer;
+			border:2px solid #efefef;
+			color: #fff;
+		}
+		.contact-form{
+			display: grid;
+			grid-template-columns: auto auto;
+			float: left;
+			width: 80%;
+			height: 100%;
+		}
+		.form-info{
+			font-size: 25px;
+			font-style: italic;
+			color: #fff;
+			letter-spacing: 2px;
+			width: 20%;
+		}
+		input{
+			padding: 10px;
+			margin: 10px;
+			width: 100%;
+			background-color: rgba(136,133,133,0.5);
+			color: #fff;
+			border:none;
+			outline: none;
+			font-size: 18px;
+		}
+
+		input::placeholder{
+			color: #fff;
+		}
+		textarea{
+			padding: 10px;
+			margin: 10px;
+			width: 100%;
+			background-color: rgba(136,133,133,0.5);
+			color: #fff;
+			border:none;
+			outline: none;
+			font-size: 18px;
+		}
+		textarea::placeholder{
+			color: #fff;
+			font-size: 18px;
+		}
+		.submit{
+			width: 50%;
+			background: none;
+			padding: 4px;
+			outline: none;
+			font-size: 18px;
+			font-weight: bold;
+			letter-spacing: 2px;
+			height: 33px;
+			background-color: rgba(136,133,133,0.5);
+			color: #fff;
+			text-align: center;
+			cursor: pointer;
+			margin-left: 3%;
+			border:2px solid rgb(190,190,190);
+			color: rgb(190,190,190);
+		}
+		.submit:hover{
+			border:1px solid #fff;
+			color: #fff;
+			cursor: pointer;
+		}
+		@media (max-width: 768px){
+			#contact-section .contact-form{
+				display: block;
+				width: 100%;
+				text-align: center;
+			}
+		}
+		#contact-section .submit{
+			width: 60%;
+		}
+		.first-grid{
+			height: 100%;
+			float: left;
+		}
+		.form-div{
+			float: right;
+			width: 500px;
+		}

@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title> Responsive Form</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<link rel="stylesheet"  href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<style type="text/css">
+		body{
+			padding: 0px;
+			margin: 0px;
+			font-family: sans-serif;
+		}
+		.container{
+			width: 90%;
+			margin: auto;
+			overflow: hidden;
+		}
+		#contact-section{
+			background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.9)),url(bg.jpg);
+			background-size: cover;
+			background-position: center;
+			height: 100%;
+			width: 100%;
+			padding-bottom: 2%;
+
+		}
+		#contact-section .container h2{
+			text-align: center;
+			text-decoration: underline;
+			text-underline-position: under;
+			color: rgba(238,235,235);
+			letter-spacing: 2px;
+
+		}
+		#contact-section .container p{
+			text-align: center;
+			width: 70%;
+			margin-left: auto;
+			margin-right: auto;
+			padding-bottom: 3%;
+			color: #fff;
+			letter-spacing: 3px;
+		}
+		.contact-form i.fa{
+			font-size: 22px;
+			padding: 3%;
+			background-color: none;
+			margin: 2%;
+			cursor: pointer;
+			border:2px solid rgb(190,190,190);
+			color: rgb(190,190,190);
+		}
+	</style>
+
+</head>
+<body>
+
+	<!-- contact session -->
+
+	<section id="contact-section">
+		<div class="container">
+			<h2> Contact Us</h2>
+			<p>Email us and keep upto date with our latest news</p>
+			<div class="contacct-form">
+				
+				<!-- first grid section -->
+                <div >
+                	<i class="fa fa-map-marker"></i><span class="form-info"> 192 City Boston America #324</span><br>
+                	<i class="fa fa-phone"></i><span class="form-info"> Phone No +91 7096088660</span><br>
+                	<i class="fa fa-envelope"></i><span class="form-info">info@travel.com</span><br>
+                </div>
+                <!-- Second grid Section -->
+                <div ></div>
+                <form>
+                	<input type="text" placeholder="first Name" required="" name="">
+                	<input type="text" placeholder="LastName" required="" name="">
+                	<input type="Email" placeholder="Enter Email" required="" name="">
+                	<input type="text" placeholder="Subject " required="" name="">
+                	<textarea name="message" placeholder="Message" id="" rows="5" required=""></textarea>
+                </form>
+			</div>
+		</div>
+		
+	</section>
+</body>
+</html>
